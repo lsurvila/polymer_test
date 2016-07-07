@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="JustPlay">
+    <link rel="manifest" href="manifest.json">
+    <title>JustPlay</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        paper-input {
+            --paper-input-container-color: #C5CAE9;
+            --paper-input-container-focus-color: #EC407A;
+            --paper-input-container-invalid-color: red;
+            --paper-input-container-input-color: white;
+        }
+    </style>
+</head>
+<body>
+<paper-toolbar justify="center">
+    <paper-input no-label-float id="search" label="Search Youtube" style="width:20em"></paper-input>
+    <paper-icon-button id="paperToggle" icon="search" paper-drawer-toggle></paper-icon-button>
+</paper-toolbar>
+</body>
+</html>
